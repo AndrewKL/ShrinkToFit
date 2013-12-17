@@ -12,10 +12,21 @@ currentFontSize = Math.max(estimatedFontSize, options.minFontSize);
 Example/How to use
 
 for a fully working example see example.html file in the repo.
+html:
 ```
-
+<div style="width:500px;height:50px;" class="resize-text">
+    <span>THISTEXTISWAYTOOBIGFORTHISDIVTHISTEXTISWAYTOBIGFORTHISDIVTHISTEXTISWAYTOBIGFORTY</span>
+</div>
 ```
-
+js:
+```
+$('.resize-text').shrinkToFit({
+    debug: true, 
+    success:function(){console.log("success");}, 
+    fail: function(){console.log("fail");},
+    complete: function(){console.log("complete");}
+});
+```
 
 options/defaults
 ```
