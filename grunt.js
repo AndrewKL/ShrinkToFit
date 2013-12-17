@@ -6,6 +6,6 @@ module.exports = function(grunt) {
         }
     });
 
-    // Task to run tests
-    grunt.registerTask('test', 'qunit');
+    // Travis CI task.
+    grunt.registerTask('travis', 'lint qunit');
 };
