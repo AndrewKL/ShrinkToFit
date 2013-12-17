@@ -1,4 +1,4 @@
-ShrinkToFit [![Build Status](https://secure.travis-ci.org/Krinkle/travis-ci-node-and-browser-qunit.png)](http://travis-ci.org/AndrewKL/ShrinkToFit)
+ShrinkToFit [![Build Status](https://travis-ci.org/AndrewKL/ShrinkToFit.png?branch=master)](https://travis-ci.org/AndrewKL/ShrinkToFit)
 ===========
 
 jquery.shrinktofit was designed to solve the problem where there are lots of big numbers that have to be stuffed into small places. This plug in is designed for slow enviorments such as IE8 where repeated optimization loops are a performance burden.  
